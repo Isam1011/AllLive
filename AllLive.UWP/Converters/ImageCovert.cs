@@ -14,7 +14,7 @@ namespace AllLive.UWP.Converters
         {
             if (value == null || string.IsNullOrEmpty(value.ToString()))
             {
-                return new BitmapImage(new Uri("ms-appx:///Assets/Placeholder/Placeholde.png"));
+                return new BitmapImage(new Uri("ms-appx:///Assets/Placeholder/Placeholder.png"));
             }
            
             var url = value.ToString();
